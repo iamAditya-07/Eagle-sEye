@@ -1,0 +1,62 @@
+.img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+pre{
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(165, 196, 212);
+    margin: 150px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    animation-duration: 3s;
+    animation-name: slidein;
+    color: rgb(245, 242, 242);
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+    background: linear-gradient(to left, #cc2b5e 50%, #753a88 50%);
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+
+.btn{
+    cursor: pointer;
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: aqua;
+}
